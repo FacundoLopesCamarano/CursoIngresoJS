@@ -18,17 +18,4 @@ function mostrar()
 	//me ven ahi?
 
 
-
-
-
 }
-
-//1er paso
-/*
-alert("Usted se llama "+nombreIngresado );
-alert("y tiene "+edadIngresada+" años");
-
-//2do paso
-
-
-alert("Usted se llama "+nombreIngresado+" y tiene "+edadIngresada+" años)";
