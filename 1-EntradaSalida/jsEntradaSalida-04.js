@@ -4,6 +4,14 @@ y lo muestro por 'ID' al presionar el botón 'mostrar'
 */
 function mostrar()
 {
-	alert("ok");
+
+	var nombre;//unica
+	nombre = prompt("Ingresa tu nombre", "Natalia Natalia");
+
+	
+	txtIdNombre.value=nombre;
+
+
+	
 }
 
