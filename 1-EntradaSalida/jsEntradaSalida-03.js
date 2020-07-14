@@ -6,7 +6,7 @@ function mostrar()
 	var nombreIngresado;
 
 
-	txtIdNombre.Value=nombreIngresado
+	nombreIngresado=txtIdNombre.Value
 
 
 	alert("su nombre es: "+nombreIngresado);
