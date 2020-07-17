@@ -9,9 +9,12 @@ function mostrar()
 	nombre = prompt("Ingresa tu nombre", "Natalia Natalia");
 alert("el nombre ingresado es: "+nombre);
 
+
+
+
 //test
 //nombre ="maria";
-alert(nombre);
+//alert(nombre);
 
 	//alert("ok");
 }
