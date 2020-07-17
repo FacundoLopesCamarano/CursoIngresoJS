@@ -19,7 +19,7 @@ function FahrenheitCentigrados ()
     resta = temperatura - 32;
     centígrados = resta / 1.8;
 
-    alert(+ temperatura + "Fahrenheit son: " + centígrados + "centigrados");
+    alert(+ temperatura + " Fahrenheit son: " + centígrados + " centigrados ");
 
 
 }
@@ -37,5 +37,11 @@ function CentigradosFahrenheit ()
     multiplicacion = temperatura * 1.8;
     fahrenheit = multiplicacion +32;
     
-    alert(+ temperatura + "centigrados son: " + fahrenheit + "fahrenheit");
+    alert(+ temperatura + " centigrados son: " + fahrenheit + " fahrenheit ");
+
+    //
+
+    
+
+
 }

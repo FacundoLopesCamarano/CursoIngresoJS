@@ -10,7 +10,7 @@ function Rectangulo ()
 {
 var largo;
 var ancho;
-var suma;
+var perimetro;
 var alambre;  
 
 largo = txtIdLargo.value;
@@ -19,34 +19,51 @@ ancho = txtIdAncho.value;
 largo = parseInt(largo)
 ancho = parseInt(ancho)
 
-suma = largo + ancho;
+perimetro = (largo + ancho) *2;
+alambre = perimetro * 3;
 
-alambre = suma *3;
-
-alert(alambre);
+alert(" Se necesitan comprar: " + alambre + " Metros de alambre ");
 
 
 
 }
 function Circulo () 
 {
-   /* var radio;
-    var pi 
+    var numero3;
+    var radio;
     var alambre;
 
-    radio = txtIdRadio.value;
-    radio = parseInt(radio);
-    pi = Math.PI
+    numero3 = txtIdRadio.value;
+    numero3 = parseInt(radio);
+    radio = 2 * 3.14 * numero3;
 
-    alambre = radio / pi
+    alambre = radio * 3
 
-    alert(alambre)*/
+    alert("Cantidad de alambre: " +alambre)
 
 }
 function Materiales () 
 {
     
-    
     var largo;
     var ancho;
+    var resultado;
+    var cemento;
+    var cal;
+
+    largo = parseInt(largo)
+    ancho = parseInt(ancho)
+    largo = txtIdLargo.value;
+    ancho = txtIdAncho.value;
+
+    resultado = largo * ancho;
+
+    cemento = resultado * 2;
+
+    cal = resultado * 3;
+
+    alert(" Las bolsas de cemento necesarias son: " +cemento+  "\n Las bolsas de cal necesarias son: " +cal);
+
+    //graciasss
+ 
 }

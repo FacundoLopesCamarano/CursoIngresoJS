@@ -26,7 +26,7 @@ function Sumar ()
     precioTres = parseInt(precioTres);
 
 
-	suma = precioUno + precioDos + precioTres
+	suma = precioUno + precioDos + precioTres;
 
 	alert("valor total: "+suma);	
 }
@@ -48,9 +48,9 @@ function Promedio ()
     precioTres = parseInt(precioTres);
 
 
-    promedio = precioUno + precioDos + precioTres / 3
+    promedio = (precioUno + precioDos + precioTres) / 3; //ok
 
-    alert(promedio)
+    alert("El promedio es: " +promedio);
 }
 function PrecioFinal () 
 {
@@ -71,15 +71,13 @@ function PrecioFinal ()
     precioTres = parseInt(precioTres);
 
     suma = precioUno + precioDos + precioTres;
-
     porcentaje = suma * 21 / 100;
-
     precioFinal = suma + porcentaje; 
  
     
 
-    alert(precioFinal);
+    alert(" El precio final es: " +precioFinal);
 
-
+//lo unico que no me quedo clara es en este ahora paso
 
 }

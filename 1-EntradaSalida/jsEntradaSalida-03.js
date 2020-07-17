@@ -6,10 +6,11 @@ function mostrar()
 	var nombreIngresado;
 
 
-	nombreIngresado=txtIdNombre.Value
+	nombreIngresado = document.getElementById("txtIdNombre").value;
 
+	
 
-	alert("su nombre es: "+nombreIngresado);
+	alert("Su nombre es: "+nombreIngresado);
 
 }
 
