@@ -16,7 +16,7 @@ alert("es un niño");
 		}
 		else
 		{
-				alert("es mayo de edad");
+				alert("es mayor de edad");
 		}
 
 	}

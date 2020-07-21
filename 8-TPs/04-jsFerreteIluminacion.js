@@ -8,7 +8,23 @@ E.	Si el importe final con descuento suma más de $120  se debe sumar un 10% de 
  ”Usted pago X de IIBB.”, siendo X el impuesto que se pagó. 
 
  */
-function CalcularPrecio () 
+
+//A. Si compra 6 o más  lamparitas bajo consumo tiene un descuento del 50%. 
+ function CalcularPrecio () 
 {
- 	
+    var lamparitasCantidad;
+    var precioUnitario;
+    var precioConDescuento;
+   
+    lamparitasCantidad = txtIdCantidad.value;
+    lamparitasCantidad = parseInt(lamparitasCantidad);
+    precioUnitario = 35;
+
+    if(lamparitasCantidad>5)
+    {
+        operacion = precioUnitario*6
+        precioConDescuento = operacion *50/100
+    }
+    
+    txtIdprecioDescuento.value = precioConDescuento;
 }
